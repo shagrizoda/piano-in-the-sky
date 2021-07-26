@@ -1,4 +1,5 @@
- body {
+ body 
+{
   text-align: center;
   background-color: #7C83FD;
   background-image: url("images/sky-background.jpg");
@@ -7,19 +8,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-
 }
 
-h1 {
+h1 
+{
   font-size: 6.5rem;
   color: #D3E0EA;
   font-family: 'Italianno', serif;
   font-weight: lighter;
-
-
 }
 
-footer {
+footer 
+{
   color: #F9F9F9;
   font-family: 'Great Vibes',serif;
   font-size: 1.5rem;
@@ -27,22 +27,19 @@ footer {
 
 }
 
-.set {
+.set 
+{
   margin: 5% auto;
 }
 
-.game-over {
-  background-color: red;
-  opacity: 0.8;
-}
-
-.pressed {
+.pressed 
+{
   box-shadow: 0 3px 4px 0 #DBEDF3;
   opacity: 0.2;
 }
 
-.piano{
-
+.piano
+{
   font-size: 3.5rem;
   font-family: 'Cinzel', serif;
   color: black;
@@ -50,8 +47,8 @@ footer {
   width: 50px;
   height: 300px;
   text-align: center;
-
 }
+
 .black
 {
   color:white;
@@ -64,44 +61,53 @@ footer {
 
 @media(max-width:500px)
 {
-  h1{font-size:5rem;
-    margin-top: 30%;
-    padding: 0 5%}
+  h1
+    {
+     font-size:5rem;
+     margin-top: 30%;
+     padding: 0 5%
+     }
   .set
     {
-      margin: 25% auto;
-
-    }
-    .piano{
-      width: 6%;
-      height: 150px;
-      overflow: hidden;
+     margin: 25% auto;
+     }
+  
+  .piano
+    {
+     width: 6%;
+     height: 150px;
+     overflow: hidden;
       text-indent: -9999px;
-    }
+     }
 
-    .black{
+  .black
+    {
       width: 4%;
       height: 100px;
-    }
+     }
 
-  footer{
-    margin:35% auto 3% auto;
-  }
+  footer
+    {
+      margin:35% auto 3% auto;
+     }
 
-}
- @media(max-width:736px)
+ }
+ 
+@media(max-width:736px)
 {
-  .piano{
-    height:170px;
-    width:5%;
-    overflow: hidden;
-    text-indent: -9999px;}
-    .black{
+  .piano
+    {
+      height:170px;
+      width:5%;
+      overflow: hidden;
+      text-indent: -9999px;
+     }
+  .black
+    {
       height:120px;
       width:4%
-    }
-    h1{
+     }
+  h1{
       font-size: 4.5rem;
-    }
-
-}
+     }
+ }
